@@ -34,7 +34,7 @@ ul, ol {
 
 .instructions {
   margin-bottom: 10px;
-  background-color: #e6e6fa; /* color for instructions box */
+  background-color: #e6e6fa;
 }
 
 .boxed-text {
@@ -60,7 +60,7 @@ th, td {
 }
 
 th[colspan="2"] {
-  background-color: #ffcccb; /* color for nutritional Information */
+  background-color: #ffcccb;
 }
 
 th[colspan="2"] + th {
@@ -70,6 +70,7 @@ th[colspan="2"] + th {
 ul {
   background-color: #e0ffff; 
 }
+
 .boxed-text p {
   background-color: #e6e6fa; 
 }
