@@ -4,9 +4,9 @@ body {
 
 h1 {
   text-align: center;
-  color: green; /* Green color for the title */
-  font-style: italic; /* Italic font style for the title */
-  font-weight: bold; /* Bold font weight for the title */
+  color: green; 
+  font-style: italic; 
+  font-weight: bold; 
 }
 
 h2, h3, h4 {
@@ -34,7 +34,7 @@ ul, ol {
 
 .instructions {
   margin-bottom: 10px;
-  background-color: #e6e6fa; /* Light purple background for the instructions box */
+  background-color: #e6e6fa; /* color for instructions box */
 }
 
 .boxed-text {
@@ -60,19 +60,16 @@ th, td {
 }
 
 th[colspan="2"] {
-  background-color: #ffcccb; /* Light coral background for the "Nutritional Information" box */
+  background-color: #ffcccb; /* color for nutritional Information */
 }
 
 th[colspan="2"] + th {
-  background-color: #98fb98; /* Pale green background for the "Amount Per Serving" box */
+  background-color: #98fb98;
 }
 
-/* Additional CSS for ingredient box (baby blue) */
 ul {
-  background-color: #e0ffff; /* Baby blue background for the ingredient box */
+  background-color: #e0ffff; 
 }
-
-/* Additional CSS for title and instructions box (light purple) */
 .boxed-text p {
-  background-color: #e6e6fa; /* Light purple background for the instructions box */
+  background-color: #e6e6fa; 
 }
