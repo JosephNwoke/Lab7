@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: green; /* Green color for the title */
+  font-style: italic; /* Italic font style for the title */
+  font-weight: bold; /* Bold font weight for the title */
+}
+
+h2, h3, h4 {
+  text-align: center;
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nutrition-label {
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+ul, ol {
+  list-style-type: none;
+  padding-left: 10px;
+  border: 1px solid black;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.instructions {
+  margin-bottom: 10px;
+  background-color: #e6e6fa; /* Light purple background for the instructions box */
+}
+
+.boxed-text {
+  border: 2px solid black;
+  padding: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+th[colspan="2"] {
+  background-color: #ffcccb; /* Light coral background for the "Nutritional Information" box */
+}
+
+th[colspan="2"] + th {
+  background-color: #98fb98; /* Pale green background for the "Amount Per Serving" box */
+}
+
+/* Additional CSS for ingredient box (baby blue) */
+ul {
+  background-color: #e0ffff; /* Baby blue background for the ingredient box */
+}
+
+/* Additional CSS for title and instructions box (light purple) */
+.boxed-text p {
+  background-color: #e6e6fa; /* Light purple background for the instructions box */
+}
